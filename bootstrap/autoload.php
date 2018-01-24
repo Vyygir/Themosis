@@ -4,7 +4,7 @@
 // Paths
 /*----------------------------------------------------*/
 $rootPath = dirname(__DIR__);
-$webrootPath = $rootPath.DS.'htdocs';
+$webrootPath = $rootPath.DS.'public';
 
 /*----------------------------------------------------*/
 // Composer autoload
@@ -68,6 +68,6 @@ if (defined('THEMOSIS_ERROR') && THEMOSIS_ERROR) {
 // Constants
 /*----------------------------------------------------*/
 define('THEMOSIS_STORAGE', $rootPath.DS.'storage');
-define('CONTENT_DIR', 'content');
+define('CONTENT_DIR', 'app');
 define('WP_CONTENT_DIR', $webrootPath.DS.CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME.'/'.CONTENT_DIR);

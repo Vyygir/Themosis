@@ -13,12 +13,12 @@ vendor/
 cs_fixer*
 
 ### Wordpress
-/htdocs/cms/*
-!/htdocs/cms/.gitkeep
-/htdocs/content/mu-plugins/themosis-framework/
-/htdocs/content/themes/themosis-theme/
-/htdocs/content/uploads/
-/htdocs/content/upgrade/
+/public/cms/*
+!/public/cms/.gitkeep
+/public/app/mu-plugins/themosis-framework/
+/public/app/themes/themosis-theme/
+/public/app/uploads/
+/public/app/upgrade/
 
 
 ### Environment Credentials
