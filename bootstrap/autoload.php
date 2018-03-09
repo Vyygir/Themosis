@@ -29,7 +29,7 @@ if (file_exists($locations = $rootPath.DS.'config'.DS.'environment.php')) {
  * Define environment file
  */
 $location = new \Thms\Config\Environment($locations);
-$location = $location->which(gethostname());
+$location = $location->which($_SERVER['SERVER_NAME']);
 $file = empty($location) ? '.env' : ".env.{$location}";
 
 /*
