@@ -42,7 +42,6 @@
     "installer-paths":{
       "public/app/mu-plugins/themosis-{$name}/": ["themosis/framework"],
       "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "public/app/themes/themosis-{$name}/": ["themosis/theme"],
       "public/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": {
