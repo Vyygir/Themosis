@@ -4,6 +4,7 @@
 // Define environment type
 /*----------------------------------------------------*/
 return [
-    'local' => 'INSERT-HOSTNAME',
-    'production' => 'INSERT-HOSTNAME'
+    'local' => 'http://themosis.localhost',
+    'development' => 'http://',
+    'production' => 'http://'
 ];
